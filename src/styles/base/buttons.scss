@@ -1,0 +1,18 @@
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border: 2px solid;
+  border-radius: 4px;
+  background-color: transparent;
+  color: black;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+
+  &:hover {
+    filter: saturate(2);
+    box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.0);
+  }
+}

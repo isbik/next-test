@@ -1,0 +1,66 @@
+.note {
+  overflow: hidden;
+  width: 100%;
+  padding: 16px;
+  border-radius: 16px;
+  border: 2px solid rgba(226, 228, 230, 1);
+  background-color: rgba(251, 203, 106, 1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  &__title {
+    margin-right: auto;
+  }
+  &__text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 8px;
+  }
+  &__top {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 8px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: rgba(226, 228, 230, 1);
+      border-radius: 2px;
+    }
+  }
+  .note__btn {
+    &-edit {
+      border-color: rgb(71, 77, 99);
+      color: rgb(71, 77, 99);
+
+      &:hover {
+        box-shadow: inset 0 0 10px rgb(71, 77, 99);
+      }
+
+      .icon {
+        color: rgb(71, 77, 99);
+      }
+    }
+    &-delete {
+      border-color: rgba(240, 124, 124, 1);
+      color: rgba(240, 124, 124, 1);
+
+      &:hover {
+        box-shadow: inset 0 0 10px rgba(240, 124, 124, 1);
+      }
+
+      .icon {
+        color: rgba(240, 124, 124, 1);
+      }
+    }
+  }
+}

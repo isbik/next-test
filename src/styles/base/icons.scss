@@ -1,0 +1,36 @@
+.icon {
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: currentColor;
+  transition: color 0.3s ease-in-out 0s;
+  color: rgba(224,224,226,1);
+
+  &--arrow-small {
+    mask-image: url(/svg/arrow-small.svg);
+    -webkit-mask-image: url(/svg/arrow-small.svg);
+  }
+  &--trash {
+    mask-image: url(/svg/trash.svg);
+    -webkit-mask-image: url(/svg/trash.svg);
+  }
+  &--edit {
+    mask-image: url(/svg/edit.svg);
+    -webkit-mask-image: url(/svg/edit.svg);
+  }
+  &--plus {
+    mask-image: url(/svg/plus.svg);
+    -webkit-mask-image: url(/svg/plus.svg);
+  }
+  &--close {
+    mask-image: url(/svg/close.svg);
+    -webkit-mask-image: url(/svg/close.svg);
+  }
+}

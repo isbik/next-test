@@ -1,0 +1,252 @@
+$theme-primary: rgba(90, 181, 193, 1);
+$theme-secondary: rgba(255,147,123,1);
+$theme-grey-light: rgba(224,224,226,1);
+$theme-green-light: rgba(239, 250, 252, 1);
+$theme-blue: rgba(226,233,255,1);
+$theme-green: rgba(90,193,150,1);
+$theme-border: rgba(217, 217, 217, 1);
+$theme-light-green: rgb(239, 250, 252);
+$theme-border-2: rgba(224,224,226,1);
+
+$typography-primary: rgb(71, 77, 99);
+$typography-secondary: rgba(48, 53, 70, 0.4);
+$typography-accent: rgba(90,181,193,1);
+$typography-disable: rgba(191,193,193,1);
+$typography-invert: rgba(255,255,255,1);
+$typography-orange: rgb(255, 147, 123);
+$typography-gray: rgb(130, 137, 160);
+$typography-red: rgba(255, 147, 123, 1);
+
+
+$bg-primary: rgba(255,255,255,1);
+$bg-secondary: rgba(178, 106, 184, 1);
+$bg-invert: #474D63;
+$bg-overlay: rgba(0,0,0,0.400);
+$bg-blue: rgba(90, 181, 193, 1);
+$bg-blur: rgba(130, 137, 160, 0.5);
+$bg-banner-effect: rgba(90, 113, 193, 0.9);
+$bg-ava: rgb(142, 191, 152);
+
+$func-error: rgba(240,124,124,1);
+$func-complete: rgba(86,189,84,1);
+
+$tag-primary-grey: rgba(48,53,70,0.100);
+$tag-primary-blue: rgba(239,250,252,1);
+$tag-primary-purple: rgba(254,240,255,1);
+$tag-primary-blue-navy: rgba(226,233,255,1);
+$tag-primary-yellow: rgba(255,243,214,1);
+$tag-primary-orange: rgba(255,225,219,1);
+$tag-primary-rose: rgba(255,237,240,1);
+$tag-primary-dark: rgba(48, 53, 70, 0.1);
+$tag-active-dark: rgba(48,53,70,1);
+$tag-active-blue: rgba(90,181,193,1);
+$tag-active-blue-navy: rgba(90,113,193,1);
+$tag-active-orange: rgba(255,116,86,1);
+$tag-active-rose: rgba(253,129,129,1);
+$tag-active-yellow: rgba(255,191,29,1);
+$tag-active-purple: rgba(178,106,184,1);
+
+
+$icon-normal: rgba(90,181,193,1);
+$icon-hover: rgba(146,213,222,1);
+$icon-active: rgba(146,213,222,1);
+$icon-white: rgba(255,255,255,1);
+$icon-disable: rgba(224,232,235,1);
+$icon-accent: rgba(255,116,86,1);
+$icon-dark: rgba(130, 137, 160, 1);
+$icon-scribble-orange: rgb(251, 145, 121);
+$icon-scribble-purple: rgb(254, 240, 255);
+
+$input-placeholder-normal: rgba(141, 152, 152, 1);
+$input-placeholder-hover: rgba(141, 152, 152, 1);
+$input-placeholder-focus: rgba(141, 152, 152, 1);
+$input-placeholder-active: rgba(141, 152, 152, 1);
+$input-placeholder-filled:rgba(141, 152, 152, 1);
+$input-placeholder-disable: rgba(64, 64, 64, 0.2);;
+$input-placeholder-required: rgba(253, 129, 129, 1);
+$input-border-normal: rgba(130,137,160, 1);
+$input-border-hover: rgba(75, 90, 138, 1);
+$input-border-disable: rgba(247, 248, 250, 1);
+$input-border-error: rgba(240,124,124,0.560);
+
+$btn-primary-normal-2: rgba(255,255,255,1);
+$btn-disable: rgba(245,245,245,1);
+$btn-txt: rgba(90,181,193,1);
+$btn-primary-normal: rgba(90,181,193,1);
+$btn-primary-hover: rgba(146,213,222,1);
+$btn-primary-active: rgba(48,192,211,1);
+/*
+$btn-secondary-normal: rgba(249,206,98,1);
+$btn-secondary-hover: rgba(244,222,165,1);
+$btn-secondary-active: rgba(255,191,29,1);
+$btn-accent-normal: rgba(255,147,123,1);
+$btn-accent-hover: rgba(255,180,164,1);
+$btn-accent-active: rgba(255,116,86,1);
+$btn-tertiary-hover: rgba(187,202,254,1);
+$btn-tertiary-normal: rgba(90,113,193,1);
+$btn-tertiary-active: rgba(53,85,197,1);
+*/
+
+/*$btn-text-dark: rgba(0,61,89,1);
+$btn-text-white: rgba(255,255,255,1);
+$btn-text-accent: rgba(246,136,115,1);
+$btn-text-disabled: rgba(212,213,216,1);
+$btn-primary-normal: rgba(246,136,115,1);
+$btn-primary-hover: rgba(246,136,115,0.800);
+$btn-primary-disable: rgba(249,249,249,1);
+$btn-primary-active: rgba(246,136,115,1);
+$btn-secondary-normal: rgba(0,61,89,0.040);
+$btn-secondary-hover: rgba(0,61,89,0.080);
+$btn-secondary-active: rgba(0,61,89,0.120);
+$btn-white-normal: rgba(255,255,255,0.160);
+$btn-white-hover: rgba(255,255,255,0.100);
+$btn-white-active: rgba(255,255,255,0.120);*/
+
+
+$link-normal: rgba(90,181,193,1);
+$link-hover: rgba(178,106,184,1);
+$link-white: rgba(255,255,255,1);
+$link-accent: rgba(253,129,129,1);
+
+// Базовая типографика
+
+$font-size--root: 8px;
+$font-size: 16px; // rem(16px)
+$font-size--small: 80%;
+$font-weight: 400;
+$line-height: normal;
+$letter-spacing: normal;
+
+$font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$font-family--monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+  "Liberation Mono", "Courier New", monospace;
+
+//Медиа-запросы
+$media-xl: 1440px;
+$media-l: 1024px;
+$media-m: 768px;
+$media-s: 520px;
+$media-xs: 375px;
+
+$mobile-min: 401px;
+
+// ZNANIE TEMP
+// ZNANIE TEMP
+
+// Цвета ссылок
+$color-link-base-text-normal: rgba(85, 160, 248, 1);
+$color-link-base-text-hover: rgba(85, 160, 248, 0.6);
+$color-link-base-text-white: rgba(255, 255, 255, 1);
+$color-link-base-text-active: rgba(66, 153, 255, 1);
+
+$color-link-base-icon-normal: rgba(57, 66, 72, 1);
+
+$label-disabled: rgba(155, 162, 166, 1);
+$label-blue: rgb(85, 160, 248);
+
+// Цвета темы
+$color-theme-blue: rgba(85, 160, 248, 1);
+$color-theme-green: rgba(93, 218, 173, 1);
+$color-theme-green-dark: rgba(0, 191, 134, 1);
+$color-theme-purple: rgba(178, 131, 255, 1);
+$color-theme-red: rgba(255, 131, 146, 1);
+$color-theme-red-dark: rgba(252, 119, 114, 1);
+$color-theme-yellow: rgba(251, 203, 106, 1);
+
+$theme-border-light: rgba(64, 64, 64, 0.1);
+$theme-border: rgba(232, 232, 232, 1);
+$theme-border-dark: rgba(217, 217, 217, 1);
+$color-theme-disable: rgba(232, 235, 238, 1);
+$color-theme-accent: rgba(234, 100, 118, 1);
+
+$color-func-error: rgba(231, 101, 101, 1);
+
+$white-color: #ffffff;
+
+$font-weight--100: 100;
+$font-weight--200: 200;
+$font-weight--300: 300;
+$font-weight--400: 400;
+$font-weight--500: 500;
+$font-weight--600: 600;
+$font-weight--700: 700;
+$font-weight--800: 800;
+$font-weight--900: 900;
+
+$theme-border-light: rgba(64, 64, 64, 0.1);
+$theme-border-dark: rgba(217, 217, 217, 1);
+
+// Цвета кнопок
+$color-btn-text-primary: rgba(255, 255, 255, 1);
+$color-btn-text-disabled: rgba(212, 213, 216, 1);
+$color-btn-text-secondary: rgba(255, 255, 255, 1);
+$color-btn-text-dark: rgba(64, 64, 64, 1);
+$color-btn-primary-bg-normal: rgba(85, 160, 248, 1);
+$color-btn-primary-bg-hover: rgba(85, 160, 248, 0.8);
+$color-btn-primary-bg-disable: rgba(249, 249, 249, 1);
+$color-btn-primary-bg-active: rgba(66, 153, 255, 1);
+$color-btn-secondary-bg-normal: rgba(64, 64, 64, 0.06);
+$color-btn-secondary-bg-hover: rgba(64, 64, 64, 0.12);
+$color-btn-secondary-bg-active: rgba(64, 64, 64, 0.16);
+$bg-tooltip: rgba(90, 89, 98, 1);
+
+// Цвета формы
+$color-input-placeholder-normal: rgba(64, 64, 64, 0.32);
+$color-input-placeholder-hover: rgba(64, 64, 64, 0.48);
+$color-input-placeholder-focus: rgba(64, 64, 64, 0.48);
+$color-input-placeholder-active: rgba(64, 64, 64, 0.48);
+$color-input-placeholder-filled: rgba(64, 64, 64, 1);
+$color-input-placeholder-disable: rgba(64, 64, 64, 0.2);
+$color-input-placeholder-required: rgba(234, 100, 118, 1);
+$color-input-border-normal: rgba(64, 64, 64, 0.2);
+$color-input-border-focus: rgba(64, 64, 64, 0.4);
+$color-input-border-active: rgba(64, 64, 64, 0.7);
+$color-input-border-filled: rgba(223, 224, 225, 1);
+$color-input-bg-normal: rgba(255, 255, 255, 1);
+$color-input-bg-hover: rgba(64, 64, 64, 0.02);
+$color-input-bg-disable: rgba(64, 64, 64, 0.04);
+$color-input-bg-error: rgba(64, 64, 64, 0.05);
+
+// DENIS
+
+$stroke-light: rgba(255,255,255,1);
+$stroke-secondary: rgba(38,50,56,1);
+$stroke-disabled: rgba(151,151,151,1);
+$stroke-primary: rgba(0,121,107,1);
+$stroke-accent: rgba(63,81,181,1);
+$stroke-secondary: rgba(212,214,215,1);
+
+$icon-normal: rgba(151,151,151,1);
+$icon-hover: rgba(151,151,151,1);
+$icon-active: rgba(151,151,151,1);
+$icon-invert: rgba(255,255,255,1);
+$icon-primary: rgba(0,121,107,1);
+$icon-accent: rgba(63,81,181,1);
+$icon-secondary: rgba(38,50,56,1);
+
+$btn-disabled-normal: rgba(151,151,151,1);
+$btn-accent-normal: rgba(63,81,181,1);
+$btn-text-primary: rgba(0,121,107,1);
+$btn-accent-shadow: rgba(63,81,181,0.24);
+$btn-accent-active: rgba(63,81,181,0.8);
+$btn-secondary-normal: rgba(125,135,139,1);
+
+$theme-error: rgba(215,38,56,1);
+$theme-disabled: rgba(186,192,194,1);
+$theme-accent: rgba(63,81,181,1);
+$theme-disabled-light: rgb(214, 221, 223);
+
+$input-border-primary: rgba(187,221,217,1);
+
+$media-xxl: 1440px;
+$media-xl: 1340px;
+$media-l: 1024px;
+$media-m: 768px;
+$media-s: 520px;
+$media-xs: 375px;
+
+$bg-warning: rgba(237,246,245,1);
+$btn-error: rgba(215,38,56,1);
