@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Note } from "@/components/note";
 import { AddNote } from "@/components/add-note";
 import "@/styles/notes.scss";
@@ -11,7 +11,7 @@ export const Notes = () => {
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequuntur id minus sunt voluptatem magni dolorum accusamus magnam eligendi nulla. Optio, officia beatae quisquam illum perspiciatis laboriosam corporis voluptate rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequuntur id minus sunt voluptatem magni dolorum accusamus magnam eligendi nulla. Optio, officia beatae quisquam illum perspiciatis laboriosam corporis voluptate rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequuntur id minus sunt voluptatem magni dolorum accusamus magnam eligendi nulla. Optio, officia beatae quisquam illum perspiciatis laboriosam corporis voluptate rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequuntur id minus sunt voluptatem magni dolorum accusamus magnam eligendi nulla. Optio, officia beatae quisquam illum perspiciatis laboriosam corporis voluptate rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequuntur id minus sunt voluptatem magni dolorum accusamus magnam eligendi nulla. Optio, officia beatae quisquam illum perspiciatis laboriosam corporis voluptate rem.";
 
   useEffect(() => {
-    createNotes();    
+    createNotes();
   }, []);
 
   return (
@@ -34,7 +34,7 @@ export const Notes = () => {
 
   function createNotes() {
     const newNotes = [];
-    
+
     for (let i = 0; i < 10; i++) {
       newNotes.push({
         title: "Note " + (i + 1),
@@ -54,7 +54,5 @@ export const Notes = () => {
     setIsAdd(false);
   }
 
-  function deleteNote(id) {
-    
-  }
+  function deleteNote(id) {}
 };
